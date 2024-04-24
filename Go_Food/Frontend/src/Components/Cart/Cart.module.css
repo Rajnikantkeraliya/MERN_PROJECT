@@ -1,0 +1,9 @@
+.body_container {
+    width: 20%;
+}
+
+.body_container select {
+    padding: 0.2rem 0.8rem;
+    color: white;
+    /* Adjust padding as needed */
+}
