@@ -1,0 +1,9 @@
+.box_container {
+    border: 0.01em solid rgb(196, 194, 194);
+    padding: 5em;
+    box-shadow: 1px 1px 5px rgb(191, 188, 188);
+    background-color: rgb(241, 242, 244);
+    width: 35%;
+    border-radius: 0.5em;
+    background-image: url("");
+}

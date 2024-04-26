@@ -1,3 +1,4 @@
+import style from "./Loginform.module.css"
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -40,20 +41,25 @@ export default function Loginpage() {
     };
 
     return (
-        <div className='container mt-5'>
-            <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" name='email' value={credentials.email} placeholder="Enter email" onChange={handleChange} />
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputPassword1">Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" name='password' value={credentials.password} placeholder="Password" onChange={handleChange} />
-                </div>
-                <button type="submit" className="btn btn-success">Log in</button>
-                <Link to="/createuser" className='m-3 btn btn-danger'>Sign Up</Link>
-            </form>
-        </div>
+        <>
+            <div className={`container mt-5  ${style.box_container}`}>
+                <h1 className='mb-5'>Login Form</h1>
+                <h1></h1>
+
+                <form onSubmit={handleSubmit}>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" name='email' value={credentials.email} onChange={handleChange} placeholder="name@example.com" />
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" name='password' value={credentials.password} onChange={handleChange} placeholder="Password" />
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <button type="submit" className="btn btn-success">Log in</button>
+                    <Link to="/createuser" className='m-3 btn btn-danger'>Sign Up</Link>
+                </form>
+            </div>
+
+        </>
     );
 }

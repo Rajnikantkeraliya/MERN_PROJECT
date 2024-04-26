@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import style from './Signup.module.css'
 
 export default function Signup() {
 
@@ -39,27 +40,28 @@ export default function Signup() {
     }
 
     return (
-        <div className='container mt-5'>
+        <div className={`container mt-5 ${style.signup_boxcontainer}`}>
+
+            <h1 className='mb-5'>SignUp Form</h1>
+
             <form onSubmit={Handlesubmit}>
-                <div className="mb-3">
-                    <label htmlFor="name">User Name</label>
-                    <input type="text" className="form-control" placeholder="Enter your Name" name='name' value={credentials.name} onChange={onchange} />
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" name='name' value={credentials.name} placeholder="Enter Username" onChange={onchange} />
+                    <label for="floatingInput">User Name</label>
                 </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" name='email' value={credentials.email} placeholder="Enter email" onChange={onchange} />
-                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" name='email' value={credentials.email} placeholder="Enter email" onChange={onchange} />
+                    <label for="floatingInput">Email address</label>
                 </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputPassword1">Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" name="password" placeholder="Password" value={credentials.password} onChange={onchange} />
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" value={credentials.password} onChange={onchange} />
+                    <label for="floatingPassword">Password</label>
                 </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputAddress">Address</label>
-                    <input type="text" className="form-control" id="exampleInputAddress" name="geolocation" placeholder="Enter Address" value={credentials.geolocation} onChange={onchange} />
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" name="geolocation" placeholder="Enter Address" value={credentials.geolocation} onChange={onchange} />
+                    <label for="floatingPassword">Address</label>
                 </div>
-                <div className="mb-3">
-                </div>
+
                 <button type="submit" className="btn btn-success">Submit</button>
                 <Link to="/login" className='m-3 btn btn-danger'>Already A user</Link>
             </form>
