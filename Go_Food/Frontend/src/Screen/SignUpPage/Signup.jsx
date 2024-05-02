@@ -58,7 +58,7 @@ export default function Signup() {
                     <label for="floatingPassword">Password</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="floatingPassword" name="geolocation" placeholder="Enter Address" value={credentials.geolocation} onChange={onchange} />
+                    <input type="text" class="form-control" id="floatingPassword" name="geolocation" placeholder="Enter Address" value={credentials.geolocation} onChange={onchange} />
                     <label for="floatingPassword">Address</label>
                 </div>
 

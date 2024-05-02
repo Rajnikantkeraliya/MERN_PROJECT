@@ -2,6 +2,7 @@ import styles from './Navbar.module.css';
 import logo from "../../Assets/Fresh-food-logo-design-on-transparent-background-PNG-removebg-preview.png"
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import Badge from "react-bootstrap/Badge"
 
 
 export default function Navbar() {
@@ -44,7 +45,10 @@ export default function Navbar() {
                             :
                             <>
                                 <div className={`btn bg-white text-success mx-2`}>
-                                    <h2 className={styles.font_css}>Mycart</h2>
+                                    <h2 className={styles.font_css}>
+                                        Mycart {""}
+                                        <Badge pill bg="danger">2</Badge>
+                                    </h2>
                                 </div>
 
                                 <div className={`btn bg-white text-danger mx-2`} onClick={handellogout}>
