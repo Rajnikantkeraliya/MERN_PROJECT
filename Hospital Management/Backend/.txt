@@ -52,3 +52,55 @@ localhost:4000/api/v1/message/send
     "phoneNumber": 9879849848,
     "message": "This is a test message."
 }
+
+
+
+
+
+firstName
+"Nirav"
+lastName
+"Patel"
+email
+"patelnirav@gmail.com"
+phoneNumber
+9879849848
+nic
+"1234123412341"
+dob
+1996-08-01T18:30:00.000+00:00
+gender
+"Male"
+password
+"$2b$10$q1tB42vsiNWEWgWFFZri8.0JE4eGurk62gai.bL6zVS/3/bc.H13i"
+role
+"Admin"
+createdAt
+2024-05-08T11:05:49.365+00:00
+updatedAt
+2024-05-08T11:05:49.365+00:00
+
+
+{
+  "_id": {
+    "$oid": "663b5c8d45dbca1b48271042"
+  },
+  "firstName": "Nirav",
+  "lastName": "Patel",
+  "email": "patelnirav@gmail.com",
+  "phoneNumber": 9879849848,
+  "nic": "1234123412341",
+  "dob": {
+    "$date": "1996-08-01T18:30:00.000Z"
+  },
+  "gender": "Male",
+  "password": "$2b$10$q1tB42vsiNWEWgWFFZri8.0JE4eGurk62gai.bL6zVS/3/bc.H13i",
+  "role": "Admin",
+  "createdAt": {
+    "$date": "2024-05-08T11:05:49.365Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T11:05:49.365Z"
+  },
+  "__v": 0
+}
