@@ -1,0 +1,199 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "User",
+    "collectionId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+    "dateExported": "2024-05-09T10:59:12.606Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e3f6d520-b365-403c-bf5d-349416210426",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Doctor Register",
+            "url": "localhost:4000/api/v1/user/doctor/addnew",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-09T10:56:54.865Z",
+            "modified": "2024-05-09T10:56:54.865Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "firstName",
+                        "value": "Vijay"
+                    },
+                    {
+                        "name": "lastName",
+                        "value": "Makwana"
+                    },
+                    {
+                        "name": "email",
+                        "value": "vijay1@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "Patel@0804"
+                    },
+                    {
+                        "name": "phoneNumber",
+                        "value": "9879849848"
+                    },
+                    {
+                        "name": "nic",
+                        "value": "1234123412341"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "Male"
+                    },
+                    {
+                        "name": "dob",
+                        "value": "08041997"
+                    },
+                    {
+                        "name": "doctorDepartment",
+                        "value": "orthopadic"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "docAvatar",
+                        "value": "c:\\Users\\tops\\Downloads\\MERN_PROJECT-main\\Hospital Management\\Backend\\istockphoto-1437816897-1024x1024.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "714a91ba-e418-4c4e-a0e8-6762ab7eb1b8",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Patient Logout",
+            "url": "localhost:4000/api/v1/user/patient/logout",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-09T10:57:20.255Z",
+            "modified": "2024-05-09T10:57:20.255Z",
+            "headers": []
+        },
+        {
+            "_id": "75c4881c-e383-4192-950a-e448f0554aba",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Admin Logout",
+            "url": "localhost:4000/api/v1/user/admin/logout",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-09T10:57:53.335Z",
+            "modified": "2024-05-09T10:57:53.335Z",
+            "headers": []
+        },
+        {
+            "_id": "ccdc3567-1bb0-4010-be65-98e058e9fd54",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Admin Login",
+            "url": "localhost:4000/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-09T10:58:00.342Z",
+            "modified": "2024-05-09T10:58:00.342Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"email\": \"patelnirav@gmail.com\",\n    \"password\":\"Patel@0804\",\n    \"confirmPassword\":\"Patel@0804\",\n    \"role\":\"Admin\"\n\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "27dcf372-588a-44e0-9fb0-cf40ef704d42",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Get Admin Details",
+            "url": "localhost:4000/api/v1/user/admin/me",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-05-09T10:58:05.655Z",
+            "modified": "2024-05-09T10:58:05.655Z",
+            "headers": []
+        },
+        {
+            "_id": "8b87eb5a-50fa-4f38-a56a-5f7ae5048464",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Get Patient Details",
+            "url": "localhost:4000/api/v1/user/patient/me",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-09T10:58:10.415Z",
+            "modified": "2024-05-09T10:58:10.415Z",
+            "headers": []
+        },
+        {
+            "_id": "54ae15d2-99a7-48f3-86a2-c1b907ec2b8f",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "getDoctor",
+            "url": "localhost:4000/api/v1/user/doctors",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-05-09T10:58:15.862Z",
+            "modified": "2024-05-09T10:58:15.862Z",
+            "headers": []
+        },
+        {
+            "_id": "fbd6a066-418e-495c-b248-4b2a9db941f3",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Patient Login",
+            "url": "localhost:4000/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-05-09T10:58:24.710Z",
+            "modified": "2024-05-09T10:58:24.710Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "\n{\n    \"email\": \"patelraj@gmail.com\",\n    \"password\":\"Patel@0804\",\n    \"confirmPassword\":\"Patel@0804\",\n    \"role\":\"Patient\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9315af40-ef70-436f-b285-61fabfe5e5c3",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Patient Register",
+            "url": "localhost:4000/api/v1/user/patient/register",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-05-09T10:58:29.470Z",
+            "modified": "2024-05-09T10:58:29.470Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "\n{\n  \"firstName\": \"Raj\",\n    \"lastName\": \"Patel\",\n    \"email\": \"patelraj@gmail.com\",\n    \"password\":\"Patel@0804\",\n    \"phoneNumber\": 9879849848,\n    \"nic\": \"1234123412341\",\n    \"dob\":\"08/02/1999\",\n    \"gender\":\"Male\",\n    \"role\":\"Patient\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "a3142e72-d160-4838-a4c5-0dc47f6dc7f2",
+            "colId": "65f8f5af-ee3f-4803-aacf-927a0ea9c246",
+            "containerId": "",
+            "name": "Admin Register",
+            "url": "localhost:4000/api/v1/user/admin/addnew",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-05-09T10:58:35.782Z",
+            "modified": "2024-05-09T10:58:35.782Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"firstName\": \"Nil\",\r\n    \"lastName\": \"Patel\",\r\n    \"email\": \"patelnil2@gmail.com\",\r\n    \"password\":\"Patel@0804\",\r\n    \"phoneNumber\": 9879849848,\r\n    \"nic\": \"1234123412341\",\r\n    \"dob\":\"08/02/1996\",\r\n    \"gender\":\"Male\"\r\n\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "mGnMcbrvo7K46nt5lv3MOsBLrR3dORrKZi-RhOEOXba_6JCY4fenGI8xSJv6vB2iZmDjwh47Ey8DRuyHsfezlw"
+}

@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Message",
+    "collectionId": "9066d5f1-21d8-49bc-bad5-73615e37b465",
+    "dateExported": "2024-05-09T10:59:07.623Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a5aa9c4f-832e-4d91-acb1-d91c1e3c14ae",
+            "colId": "9066d5f1-21d8-49bc-bad5-73615e37b465",
+            "containerId": "",
+            "name": "Get All Message ",
+            "url": "localhost:4000/api/v1/message/getall",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-09T10:56:14.201Z",
+            "modified": "2024-05-09T10:56:14.201Z",
+            "headers": []
+        },
+        {
+            "_id": "9d277da2-6151-4540-9aea-7b1167030183",
+            "colId": "9066d5f1-21d8-49bc-bad5-73615e37b465",
+            "containerId": "",
+            "name": "message Send",
+            "url": "localhost:4000/api/v1/message/send",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-09T10:56:30.527Z",
+            "modified": "2024-05-09T10:56:30.527Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "\r\n{\r\n  \"firstName\": \"Raj\",\r\n    \"lastName\": \"Patel\",\r\n    \"email\": \"patelraj@gmail.com\",\r\n    \"phoneNumber\": 9879849848,\r\n    \"message\": \"This is a test message.\"\r\n}\r\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "2NVv2XTZYEf1-5AQYKrUQF9K8LRjKcpr4xUiWHW_JKxbQWE7FIgzhsDIrX06dA5I7Duc8Y1LGIzCMaIFcz44kA"
+}

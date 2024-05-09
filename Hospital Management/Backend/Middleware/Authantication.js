@@ -22,7 +22,7 @@ export const isPatientAuthanticated = CatchAsyncError(async (req, res, next) => 
     }
     const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
     req.user = await User.findById(decoded.id);
-    if (req.user.role !== "patient") {
+    if (req.user.role !== "Patient") {
         return next(new errorHandler(`${req.user.role} Not Authorised For this Resources !`, 403))
     }
     next()

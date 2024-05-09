@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Appointment",
+    "collectionId": "bac29392-be8c-446e-9e7b-b129f86483e2",
+    "dateExported": "2024-05-09T10:58:57.838Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "115cdaf8-874e-4c26-b678-6b62bb226280",
+            "colId": "bac29392-be8c-446e-9e7b-b129f86483e2",
+            "containerId": "",
+            "name": "Delete Appointment ",
+            "url": "localhost:4000/api/v1/appointment/appointmentdelete/663c9f18e506d92e75377bbf",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-05-09T10:55:02.152Z",
+            "modified": "2024-05-09T10:55:02.152Z",
+            "headers": []
+        },
+        {
+            "_id": "4f55553a-4160-41b5-8dcb-280af3f5523a",
+            "colId": "bac29392-be8c-446e-9e7b-b129f86483e2",
+            "containerId": "",
+            "name": "Appointment Update",
+            "url": "localhost:4000/api/v1/appointment/appointmentupdate/663c9f18e506d92e75377bbf",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-05-09T10:55:45.215Z",
+            "modified": "2024-05-09T10:55:45.215Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"status\": \"Accepted\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4074ad86-32c2-448e-b8ba-9caf8eb351ea",
+            "colId": "bac29392-be8c-446e-9e7b-b129f86483e2",
+            "containerId": "",
+            "name": "getallappointment",
+            "url": "localhost:4000/api/v1/appointment/getallappointment",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-09T10:55:55.095Z",
+            "modified": "2024-05-09T10:55:55.095Z",
+            "headers": []
+        },
+        {
+            "_id": "bbe24315-edcc-47a8-b9a0-f02ea6dc4b6f",
+            "colId": "bac29392-be8c-446e-9e7b-b129f86483e2",
+            "containerId": "",
+            "name": "Appointment Post",
+            "url": "localhost:4000/api/v1/appointment/appointmentpost",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-05-09T10:56:01.751Z",
+            "modified": "2024-05-09T10:56:01.751Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Rajnikant\",\n    \"lastName\": \"Keraliya\",\n    \"email\": \"patelraj080404@gmail.com\",\n    \"phoneNumber\": 9879849848,\n    \"nic\": \"1234123412341\",\n    \"dob\":\"08/02/1999\",\n    \"gender\":\"Male\",\n    \"appointment_date\":\"090524\",\n    \"department\":\"orthopadic\",\n    \"doctor_firstName\":\"Vijay\",\n    \"doctor_lastName\":\"Makwana\",\n    \"address\":\"Ahmedabad\"\n}\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "EAS9DA7HhZyHMKUxiKgfGZmJJTqN7VQSiR3rSj8s-KopfvpjUv49vFAX5JngP2LUIOg7obzeBIkUlEdoeVCOew"
+}
