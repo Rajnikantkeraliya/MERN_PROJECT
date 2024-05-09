@@ -1,0 +1,54 @@
+localhost:4000/api/v1/user/admin/addnew
+
+{
+  "firstName": "Nil",
+    "lastName": "Patel",
+    "email": "patelnil2@gmail.com",
+    "password":"Patel@0804",
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1996",
+    "gender":"Male"
+
+}
+
+localhost:4000/api/v1/user/login
+{
+    "email": "patelraj@gmail.com",
+    "password":"Patel@0804",
+    "confirmPassword":"Patel@0804",
+    "role":"Patient"
+}
+
+localhost:4000/api/v1/user/login
+{
+   "email": "patelnirav@gmail.com",
+    "password":"Patel@0804",
+    "confirmPassword":"Patel@0804",
+    "role":"Admin"
+
+}
+
+localhost:4000/api/v1/user/patient/register
+{
+  "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "patelraj@gmail.com",
+    "password":"Patel@0804",
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1999",
+    "gender":"Male",
+    "role":"Patient"
+}
+
+
+
+localhost:4000/api/v1/message/send
+{
+  "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "patelraj@gmail.com",
+    "phoneNumber": 9879849848,
+    "message": "This is a test message."
+}
