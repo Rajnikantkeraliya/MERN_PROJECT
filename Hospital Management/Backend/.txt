@@ -1,0 +1,123 @@
+//Appointment Delete 
+localhost:4000/api/v1/appointment/appointmentdelete/663c9f18e506d92e75377bbf
+
+
+//Appointment Update
+localhost:4000/api/v1/appointment/appointmentupdate/663c9f18e506d92e75377bbf
+{
+  "status": "Accepted"
+}
+
+//appoinntment post
+localhost:4000/api/v1/appointment/appointmentpost
+{
+  "firstName": "Rajnikant",
+    "lastName": "Keraliya",
+    "email": "patelraj080404@gmail.com",
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1999",
+    "gender":"Male",
+    "appointment_date":"090524",
+    "department":"orthopadic",
+    "doctor_firstName":"Vijay",
+    "doctor_lastName":"Makwana",
+    "address":"Ahmedabad"
+}
+
+
+/get All appointment
+localhost:4000/api/v1/appointment/getallappointment
+
+/get All Message
+localhost:4000/api/v1/message/getall
+
+//Doctor Register
+localhost:4000/api/v1/user/doctor/addnew
+ "firstName": "Rajnikant",
+    "lastName": "Keraliya",
+    "email": "patelraj080404@gmail.com",
+    "password":"Patel@0804"
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1999",
+    "doctorDepartment":"orthopadic"
+    //file "docAvatar"
+
+
+    //patient logout
+    localhost:4000/api/v1/user/patient/logout
+
+    //admin logout
+    localhost:4000/api/v1/user/admin/logout
+
+    //adminlogin
+    localhost:4000/api/v1/user/login
+    {
+   "email": "patelnirav@gmail.com",
+    "password":"Patel@0804",
+    "confirmPassword":"Patel@0804",
+    "role":"Admin"
+
+}
+
+//get Admin Details
+localhost:4000/api/v1/user/admin/
+
+//Get Patient Details
+localhost:4000/api/v1/user/patient/me
+
+//get Doctor
+localhost:4000/api/v1/user/doctors
+
+//Patient login
+localhost:4000/api/v1/user/login
+
+{
+    "email": "patelraj@gmail.com",
+    "password":"Patel@0804",
+    "confirmPassword":"Patel@0804",
+    "role":"Patient"
+}
+
+//patient Register
+localhost:4000/api/v1/user/patient/register
+
+{
+  "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "patelraj@gmail.com",
+    "password":"Patel@0804",
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1999",
+    "gender":"Male",
+    "role":"Patient"
+}
+
+
+//Message Send 
+localhost:4000/api/v1/message/send
+
+{
+  "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "patelraj@gmail.com",
+    "phoneNumber": 9879849848,
+    "message": "This is a test message."
+}
+
+
+//Admine Register
+localhost:4000/api/v1/user/admin/addnew
+{
+  "firstName": "Nil",
+    "lastName": "Patel",
+    "email": "patelnil2@gmail.com",
+    "password":"Patel@0804",
+    "phoneNumber": 9879849848,
+    "nic": "1234123412341",
+    "dob":"08/02/1996",
+    "gender":"Male"
+
+}
